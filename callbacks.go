@@ -45,7 +45,7 @@ type Callbacks []Callback
 
 //CallbacksCall calls all callbacks in the list by the given name with the passed params
 func (c *Callbacks) CallbacksCall(name string, params ...interface{}) {
-	log.Println("callbacks call:", name)
+	// log.Println("callbacks call:", name)
 	for _, cb := range c.CallbacksFind(name) {
 		// TODO catch errors ary ?
 		// TODO return values ary if any?
