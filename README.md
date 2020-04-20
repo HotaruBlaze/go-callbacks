@@ -1,5 +1,6 @@
-# Go Callbacks
-
+# Go Callbacks - HotaruBlaze's Fork
+### Based on https://github.com/schorsch/go-callbacks
+___
 Building extensible software always requires a system to add loosely coupled parts. There are many names for such
 be it plugins, components, extensions or modules.
 
